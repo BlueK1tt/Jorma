@@ -1,0 +1,22 @@
+Ideas for discord bot
+-Hangman
+    Bot creates graphical hangman in chat
+    Bot self edits the message with the progress of the game
+    Commands.
+        !Hangman play
+            Creates new hangman game in the chat and adds ping @hangman
+            every game has own game ID
+        !Hangman exit
+        !Hangman plays
+            Gives embeded plate in chat that shows,
+                How many times hangman has been played
+                How many differeny players have played
+                How many total wins
+                How many total losses
+                If determined, can search game by its id
+                    Every player that played on the determined game gets dm:ed about the game end
+control panel for bots
+Whilist bot running on server, can see console, used commands, errors, use commands?, etc
+    When starting pc, or starting program, would get windows popups if error has occoured
+    with control panel, could start and stop the bot
+    Can see uptime of the box and uptime of the control panel session
