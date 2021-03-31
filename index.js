@@ -53,10 +53,10 @@ bot.on('message', message=>{
             //make jorma be able to respond if previous message replied sending message and @user
             break;
         case 'website':
-            bot.commands.get('website').execute(message, args);
+            bot.commands.get('website').excecute(message, args);
             break;
         case 'Docs':
-            bot.commands.get('document').execute(message, args);
+            bot.commands.get('document').excecute(message, args);
             break;
         case 'info':
                 if(args[1] === 'version'){
