@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 var constas = require('./consts.js');
-const token = '';
+const token = 'NzI2NjA5MzI3MjA0NDY2Njk4.XvjXQg.nh13LwCuqo-LJkIB64ArXEbLA2w';
 const fs = require('fs');
 const { resolveAny, resolveTxt } = require('dns');
 const { PassThrough } = require('stream');
