@@ -16,6 +16,9 @@ for(const file of commandFiles){
     bot.commands.set(command.name, command);
 }
 
+//in case of error or crash, send message to all admins/owner, about the crash
+//admins would have own team on discord where bot would get info about them
+
 const PREFIX = '!';
 const botname = 'Jorma'
 var version = '1.0.2';
