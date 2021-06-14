@@ -28,6 +28,6 @@ module.exports = {
       
       const member = guild.members.cache.get(targetUser.id)
       member.roles.add(role)
-      message.reply(`now has the "${roleName}" role`)
+      message.reply(`"${targetUser}"now has the "${roleName}" role`)
     },
   }

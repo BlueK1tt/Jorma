@@ -1,8 +1,8 @@
 module.exports = {
-    name: 'website',
+    name: 'scribbl',
     description: "Gives out specified website",
-    excecute(message, args){
-        message.channel.send('https://www.twitch.tv/michaelreeves/');
+    callback(message, args){
+        message.channel.send('https://skribbl.io/');
         console.log(`${args}`, message.author.username)
     }
 }
