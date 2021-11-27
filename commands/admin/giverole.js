@@ -4,7 +4,7 @@ module.exports = {
     minArgs: 2,
     expectedArgs: "<Target user's @> <The role name>",
     permissions: 'Administrator',
-    callback: (message, arguments) => {
+    excecute: (message, arguments) => {
       console.log(message.content)
       const targetUser = message.mentions.users.first()
       if (!targetUser) {
@@ -12,7 +12,6 @@ module.exports = {
         return
       }
       
-      arguments.shift()
       arguments.shift()
       
       const roleName = arguments.join(" ")
