@@ -11,7 +11,7 @@ var version = '1.0.2';
 
 bot.on('ready', () =>{
     console.log(botname, 'Bot online');
-    bot.channels.cache.get("726591333443174523").send("hello");
+    bot.channels.cache.get(channel number).send("hello");
 });
 
 var text = fs.readFileSync("./dewords.txt").toString('utf-8').split("\n");
