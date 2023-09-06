@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const config = require('./config.json');
+const config = require('./config.json'); //said file would contain key to discord server/channel
 const bot = new Discord.Client();
 var constas = require('./consts.js');
 const fs = require('fs');
